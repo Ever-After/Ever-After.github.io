@@ -91,6 +91,7 @@ body {
 figure {margin: 0;}
 dd {margin: 0;}
 nav {margin: 0;padding: 0;}
+h2 {margin-block-end: 0;}
 
 /*table全般の設定*/
 table {border-collapse:collapse;}
