@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Happily Ever After.">
   <link rel="stylesheet" href="css/style.css">
+	<!--カウントダウン-->
+	<script src="script.js" defer></script>
 </head>
 
 <body class="home">
@@ -73,21 +75,28 @@
 	  	開場： 9:30～<br>
 	  	開始：10:30～</p>
 
-<!--カウントダウン
-		<div class="container">
-  		<div class="countdown">
-    		<h1 class="countdown-title">Countdown to
-      		<span id="year" class="new-year"></span>
-    		</h1>
-    		<div class="time-container">
-      		<p class="time"><span id="days" class="time-num"></span>days</p>
-      		<p class="time"><span id="hours" class="time-num"></span>hours</p>
-      		<p class="time"><span id="minutes" class="time-num"></span>minutes</p>
-      		<p class="time"><span id="seconds" class="time-num"></span>seconds</p>
-    		</div>
-  		</div>
-		</div>
--->		
+<!--カウントダウン-->		
+
+  <h1>2025.02.25</h1>
+  <div class="countdown-container">
+    <div class="countdown-elm">
+      <p class="time-text" id="days">0</p>
+      <span>days</span>
+    </div>
+    <div class="countdown-elm">
+      <p class="time-text" id="hours">0</p>
+      <span>hours</span>
+    </div>
+    <div class="countdown-elm">
+      <p class="time-text" id="mins">0</p>
+      <span>mins</span>
+    </div>
+    <div class="countdown-elm">
+      <p class="time-text" id="seconds">0</p>
+      <span>seconds</span>
+    </div>
+  </div>
+
 	</section>
 
 	<section class="bg1">
@@ -210,9 +219,6 @@ duration: 150,
 forceRender: false,
 });
 </script>
-
-<!--カウントダウン-->
-<script src="countdown.js"></script>
 
 </body>
 </html>
