@@ -111,7 +111,7 @@ input {font-size: 1rem;}
 /*section
 ---------------------------------------------------------------------------*/
 section {
-	padding: 2rem;	/*section内の余白*/
+	padding: 0.8rem;	/*section内の余白*/
 }
 
 	/*画面幅600px以上の追加指定*/
