@@ -243,6 +243,14 @@ main h2 {
 	text-align: right;		/*テキストを右寄せ。上でinline-blockを指定したので、画面の右側ではなく、装飾文字と合わせた幅内で右に揃う。*/
 }
 
+main h3 {
+	font-size: 20px;		/*文字サイズ*/
+	font-weight: normal;	/*デフォルトの太字を標準に*/
+	line-height: 1.5;		/*行間*/
+	display: inline-block;	/*文字の幅にブロック幅を合わせる。これがないと画面幅いっぱいになって、下の右寄せ指定が離れすぎてしまう。*/
+	text-align: right;		/*テキストを右寄せ。上でinline-blockを指定したので、画面の右側ではなく、装飾文字と合わせた幅内で右に揃う。*/
+}
+
 /*大きな装飾文字*/
 .hosoku {
 	font-family: "Allura", cursive;	/*冒頭で読み込んでいるGoogle Fontsの指定*/
