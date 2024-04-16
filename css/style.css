@@ -111,14 +111,14 @@ input {font-size: 1rem;}
 /*section
 ---------------------------------------------------------------------------*/
 section {
-	padding: 0.8rem;	/*section内の余白*/
+	padding: 1rem;	/*section内の余白*/
 }
 
 	/*画面幅600px以上の追加指定*/
 	@media screen and (min-width:600px) {
 
 	section {
-		padding: 3rem 5rem;	/*section内の余白。上下、左右への順番。*/
+		padding: 2rem 3rem;	/*section内の余白。上下、左右への順番。*/
 	}
 
 	}/*追加指定ここまで*/
