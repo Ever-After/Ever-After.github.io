@@ -111,7 +111,7 @@ input {font-size: 1rem;}
 /*section
 ---------------------------------------------------------------------------*/
 section {
-	padding: 1.2rem;	/*section内の余白*/
+	padding: 1.3rem;	/*section内の余白*/
 }
 
 	/*画面幅600px以上の追加指定*/
@@ -459,8 +459,9 @@ ul.icons li {
 /*セクションタイトル*/
 ---------------------------------------------------------------------------*/
 .main_title {
-	width: 100%;
-	text-align: left;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
 }
 
 .sub_title {
