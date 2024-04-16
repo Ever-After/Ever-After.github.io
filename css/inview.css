@@ -80,7 +80,7 @@
 	filter: blur(30px);
 	transform: scale(1.1);
 	display: block;
-	text-align: left;
+	text-align: center;
 }
 
 /*要素が見えたら実行するアクション*/
