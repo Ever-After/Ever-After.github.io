@@ -242,16 +242,16 @@ main {
 /*main内のh2*/
 
 main h1 {
-	font-size: 2.0rem;		/*文字サイズ。1.5倍。*/
-	font-weight: bold;		/*デフォルトの太字を標準に*/
-	line-height: 1.5;		/*行間*/
+	font-size: 2.0rem;		/*文字サイズ。2倍。*/
+	font-weight: normal;		/*デフォルトの太字を標準に*/
+	line-height: 1.3;		/*行間*/
 	text-align: center;		/*テキストを右寄せ*/
 }
 
 main h2 {
 	font-size: 1.5rem;		/*文字サイズ。1.5倍。*/
 	font-weight: bold;		/*デフォルトの太字を標準に*/
-	line-height: 1.5;		/*行間*/
+	line-height: 1.3;		/*行間*/
 	display: inline-block;		/*文字の幅にブロック幅を合わせる。これがないと画面幅いっぱいになって、下の右寄せ指定が離れすぎてしまう。*/
 	text-align: right;		/*テキストを右寄せ。上でinline-blockを指定したので、画面の右側ではなく、装飾文字と合わせた幅内で右に揃う。*/
 }
@@ -259,7 +259,7 @@ main h2 {
 main h3 {
 	font-size: 1.2rem;		/*文字サイズ*/
 	font-weight: normal;		/*デフォルトの太字を標準に*/
-	line-height: 1.5;		/*行間*/
+	line-height: 1.3;		/*行間*/
 	display: inline-block;		/*文字の幅にブロック幅を合わせる。これがないと画面幅いっぱいになって、下の右寄せ指定が離れすぎてしまう。*/
 	text-align: right;		/*テキストを右寄せ。上でinline-blockを指定したので、画面の右側ではなく、装飾文字と合わせた幅内で右に揃う。*/
 }
@@ -467,8 +467,8 @@ ul.icons li {
 
 .sub_title {
 	width: 100%;
-	height: 40px;
 	text-align: center;
+	margin-bottom: 1.0em;
 }
 
 /*bg1背景色がついたブロック
