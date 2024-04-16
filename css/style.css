@@ -238,7 +238,7 @@ main {
 main h2 {
 	font-size: 1.5rem;		/*文字サイズ。1.5倍。*/
 	font-weight: normal;	/*デフォルトの太字を標準に*/
-	line-height: 1.2;		/*行間*/
+	line-height: 1.5;		/*行間*/
 	display: inline-block;	/*文字の幅にブロック幅を合わせる。これがないと画面幅いっぱいになって、下の右寄せ指定が離れすぎてしまう。*/
 	text-align: right;		/*テキストを右寄せ。上でinline-blockを指定したので、画面の右側ではなく、装飾文字と合わせた幅内で右に揃う。*/
 }
