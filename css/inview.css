@@ -79,6 +79,7 @@
 	opacity: 0;	/*透明度（透明の状態）*/
 	filter: blur(30px);
 	transform: scale(1.1);
+	font-size: 20px;
 }
 
 /*要素が見えたら実行するアクション*/
