@@ -81,7 +81,7 @@ html,body {
 
 
 body {
-	font-family: "M PLUS 1p", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif, sans-serif;	/*フォント種類*/
+	font-family: "M PLUS 1p", sans-serif;	/*フォント種類*/
 	font-weight: 400;
 	font-style: normal;
 	-webkit-text-size-adjust: none;
