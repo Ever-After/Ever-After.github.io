@@ -651,6 +651,35 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 	animation-delay: 0.6s;	/*アニメーションを0.6秒遅れてスタートさせる。*/
 }
 
+/*招待状ボタン*/
+a.btn_12 {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem 1rem 3rem;
+	font-weight: bold;
+	background: #fff;
+	color: #93c6dd;
+	border-radius: 100vh;
+	position: relative;
+	transition: 0.5s;
+}
+a.btn_12::before {
+	content: '';
+	width: 7px;
+	height: 7px;
+	border-top: 2px solid #93c6dd;
+	border-right: 2px solid #93c6dd;
+	transform: rotate(45deg);
+}
+a.btn_12:hover {
+	background: #fff;
+	color: #a2dbf5;
+}
 
 /*PAGE TOP（↑）設定
 ---------------------------------------------------------------------------*/
