@@ -8,7 +8,7 @@
 
 /*Google Fontsの読み込み
 ---------------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Homemade+Apple&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap')
 
 /*Font Awesomeの読み込み
 ---------------------------------------------------------------------------*/
@@ -459,7 +459,7 @@ ul.icons li {
 /*セクションタイトル*/
 ---------------------------------------------------------------------------*/
 .main_title {
-	font-size: 1.5rem;
+	font-size: 2.8rem;
 	font-weight: bold;
 	text-align: center;
 }
@@ -750,7 +750,7 @@ a.btn_12:hover {
 
 h1 {
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 5rem;
 }
 
@@ -763,9 +763,9 @@ h1 {
 
 .time-text {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 2rem;
   line-height: 1;
-  margin: 1rem 2rem;
+  margin: 2rem 0.4rem;
 }
 
 .countdown-elm {
@@ -773,6 +773,6 @@ h1 {
 }
 
 .countdown-elm span {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
