@@ -737,49 +737,64 @@ a.btn_12:hover {
 
 /*カウントダウン
 ---------------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
 .countdown {
-  background-image: url(./background.jpeg);
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
+   background-color: rgb(255, 252, 254) !important; 
 }
 
-.countdown h1 {
-  font-weight: normal;
-  font-size: 1.5rem;
-  margin-top: 5rem;
+.tick {
+  font-size:1rem; white-space:nowrap; font-family:arial,sans-serif;
 }
 
-.countdown-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.tick-flip,.tick-text-inline {
+  font-size:2.5em;
 }
 
-.time-text {
-  font-weight: bold;
-  font-size: 2.8rem;
-  line-height: 1;
-  margin: 2rem 1rem;
+.tick-label {
+  margin-top:1em;font-size:1em;
 }
 
-.countdown-elm {
-  text-align: center;
+.tick-char {
+  width:1.5em;
 }
 
-.countdown-elm span {
-  font-size: 1.2rem;
+.tick-text-inline {
+  display:inline-block;text-align:center;min-width:1em;
 }
+
+.tick-text-inline+.tick-text-inline {
+  margin-left:-.325em;
+}
+
+.tick-group {
+  margin:0 .5em;text-align:center;
+}
+
+.tick-text-inline {
+   color: rgb(153, 204, 203) !important; 
+}
+
+.tick-label {
+   color: rgb(153, 204, 203) !important; 
+}
+
+.tick-flip-panel {
+   color: rgb(255, 230, 179) !important; 
+}
+
+.tick-flip {
+   font-family:clearsans-regular, sans-serif !important; 
+}
+
+.tick-flip-panel-text-wrapper {
+   line-height: 1.45 !important; 
+}
+
+.tick-flip-panel {
+   background-color: rgb(254, 252, 255) !important; 
+}
+
+.tick-flip {
+   border-radius:0.13em !important; 
+}
+
 
