@@ -796,3 +796,25 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 }
 
 
+/*マスキングテープ風*/
+.box5-5{
+	margin: 2em auto;
+	background-color: #fff;/*ボックス背景色*/
+	padding:2.5em 2em 2em;/*ボックス内側余白*/
+	position:relative;/*配置(ここを基準に)*/
+}
+.box5-5 .box-title {
+	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
+	border-left: 2px dotted rgba(0,0,0,.1);/* テープのギザギザ左*/
+	border-right: 2px dotted rgba(0,0,0,.1);/* テープのギザギザ右*/
+	transform: rotate(-2deg);/*テープの傾き*/
+	font-size: 1em;/*タイトル文字の大きさ*/
+	padding: 10px 20px;/*タイトルの余白*/
+	line-height: 1;/*タイトルの行の高さ*/
+	position:absolute;	/*配置(ここを動かす)*/
+	top: -15px; /*上から（-10px）移動*/
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
