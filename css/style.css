@@ -125,7 +125,8 @@ section {
 	}
 
 	}/*追加指定ここまで*/
-
+	  
+	
 section h2 {
 	margin-block-end: 0;
 }
@@ -244,10 +245,11 @@ main {
 /*main内のh2*/
 
 main h1 {
-	font-size: 2rem;		/*文字サイズ。2倍。*/
+	font-size: 1.8rem;		/*文字サイズ。2倍。*/
 	font-weight: normal;		/*デフォルトの太字を標準に*/
 	line-height: 1.3;		/*行間*/
-	text-align: center;		/*テキストを右寄せ*/
+	text-align: center;		/*テキストを中央寄せ*/
+	display: block;
 }
 
 main h2 {
@@ -265,8 +267,8 @@ main h3 {
 	text-align: center;		/*テキストを右寄せ。上でinline-blockを指定したので、画面の右側ではなく、装飾文字と合わせた幅内で右に揃う。*/
 }
 
-font_s {
-  font-size: 0.8rem;		/*文字サイズ*/
+.font_s {
+	font-size: 0.9em;		/*文字サイズ*/
 	font-weight: normal;		/*デフォルトの太字を標準に*/
 }
 
@@ -472,12 +474,19 @@ ul.icons li {
 	text-align: center;
 }
 .main_time {
-	font-size: 2rem;
-	font-weight: bold;
+	font-size: 1.5rem;
+	font-weight: normal;
 	text-align: center;
 }
 
-.main_time p {line-height: 1.2;		/*行間*/
+.main_time p {line-height: 1.4;		/*行間*/
+}
+
+.main_time span {
+	font-size: smaller;
+}
+
+.main_location p {line-height: 1.6;		/*行間*/
 }
 
 .sub_title {
@@ -677,10 +686,10 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
   position: relative;
   display: block;
   padding: 15px 0;
-  background-color: #21be78;
+  background-color: #25c967;
   border-radius: 8px;
   font-size: 14px;
-  color: #fff;
+  color: #;
   text-decoration: none;
   text-align: center;
 }
@@ -737,6 +746,7 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 ---------------------------------------------------------------------------*/
 .countdown {
    background-color: rgb(255, 252, 254) !important; 
+   text-align: center;
 }
 
 .tick {
@@ -784,7 +794,7 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 }
 
 .tick-flip-panel-text-wrapper {
-   line-height: 1.45 !important; 
+   line-height: 1.0 !important; 
 }
 
 .tick-flip-panel {
@@ -798,19 +808,20 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 
 /*マスキングテープ風*/
 .box5-5{
-	width: 600px;
-	margin: 2em auto;
+	width: 100%;
+	margin: 4em 0 3em 0;
 	background-color: #fff;/*ボックス背景色*/
-	padding:2.5em 2em 2em;/*ボックス内側余白*/
+	padding: 2.5em 0.9em 2em 0.9em ;/*ボックス内側余白*/
 	position:relative;/*配置(ここを基準に)*/
 }
 .box5-5 .box-title {
-	width: 100px;
+	width: 60%;
 	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
 	border-left: 2px dotted rgba(0,0,0,.1);/* テープのギザギザ左*/
 	border-right: 2px dotted rgba(0,0,0,.1);/* テープのギザギザ右*/
 	transform: rotate(-2deg);/*テープの傾き*/
 	font-size: 1em;/*タイトル文字の大きさ*/
+	color: #000;
 	padding: 10px 20px;/*タイトルの余白*/
 	line-height: 1;/*タイトルの行の高さ*/
 	position:absolute;	/*配置(ここを動かす)*/
@@ -820,3 +831,12 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 	margin: 0 auto;
 }
 
+
+@media (min-width: 600px ) {
+	.box5-5{
+		width: 400px;
+	}
+	.box5-5 .box-title {
+		width: 60%;
+	}
+}
