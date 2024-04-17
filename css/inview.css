@@ -79,7 +79,6 @@
 	opacity: 0;	/*透明度（透明の状態）*/
 	filter: blur(30px);
 	transform: scale(1.1);
-	font-size: 1.8rem;
 }
 
 /*要素が見えたら実行するアクション*/
@@ -117,4 +116,3 @@
 .transform3style {
 	animation: transform3 0.8s ease-out 0.5s both;
 }
-
