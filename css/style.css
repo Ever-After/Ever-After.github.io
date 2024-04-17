@@ -798,12 +798,14 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 
 /*マスキングテープ風*/
 .box5-5{
+	width: 600px;
 	margin: 2em auto;
 	background-color: #fff;/*ボックス背景色*/
 	padding:2.5em 2em 2em;/*ボックス内側余白*/
 	position:relative;/*配置(ここを基準に)*/
 }
 .box5-5 .box-title {
+	width: 100px;
 	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
 	border-left: 2px dotted rgba(0,0,0,.1);/* テープのギザギザ左*/
 	border-right: 2px dotted rgba(0,0,0,.1);/* テープのギザギザ右*/
