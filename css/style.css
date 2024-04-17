@@ -8,7 +8,8 @@
 
 /*Google Fontsの読み込み
 ---------------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Homemade+Apple&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap')
 
 /*Font Awesomeの読み込み
 ---------------------------------------------------------------------------*/
@@ -80,7 +81,9 @@ html,body {
 
 
 body {
-	font-family: "BIZ UDPGothic", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;	/*フォント種類*/
+	font-family: "M PLUS 1p", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif, sans-serif;	/*フォント種類*/
+	font-weight: 400;
+	font-style: normal;
 	-webkit-text-size-adjust: none;
 	background: var(--primary-color);	/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
 	color: var(--primary-text-color);	/*文字色。css冒頭で指定しているprimary-text-colorを読み込みます*/
@@ -459,7 +462,7 @@ ul.icons li {
 /*セクションタイトル*/
 ---------------------------------------------------------------------------*/
 .main_title {
-	font-size: 2.8rem;
+	font-size: 3rem;
 	font-weight: bold;
 	text-align: center;
 }
@@ -763,7 +766,7 @@ h1 {
 
 .time-text {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.8rem;
   line-height: 1;
   margin: 2rem 0.4rem;
 }
@@ -773,6 +776,6 @@ h1 {
 }
 
 .countdown-elm span {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
