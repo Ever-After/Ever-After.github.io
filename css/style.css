@@ -82,7 +82,7 @@ html,body {
 
 body {
 	font-family: "Zen Old Mincho", serif;	/*フォント種類*/
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 	-webkit-text-size-adjust: none;
 	background: var(--primary-color);	/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
@@ -470,6 +470,9 @@ ul.icons li {
 	font-size: 2rem;
 	font-weight: bold;
 	text-align: center;
+}
+
+.main_time p {line-height: 1.2;		/*行間*/
 }
 
 .sub_title {
