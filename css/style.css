@@ -80,9 +80,7 @@ html,body {
 
 
 body {
-	font-family: "BIZ UDPGothic", sans-serif;	/*フォント種類*/
-	font-weight: 400;
-	font-style: normal;
+	font-family: "BIZ UDPGothic", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
 	background: var(--primary-color);	/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
 	color: var(--primary-text-color);	/*文字色。css冒頭で指定しているprimary-text-colorを読み込みます*/
