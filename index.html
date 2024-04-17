@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!--カウントダウン-->
   <script src="js/script.js" defer></script>
+  <script src="js/countdown.js" defer></script>
 </head>
 
 <body class="home">
@@ -33,7 +34,7 @@
 			<span class="blur">ご挨拶</span>
 		</div>
 
-    <p>このたび私たちは、<br>結婚式を挙げることとなりました。</p>
+    <p>このたび私たちは<br>結婚式を挙げることとなりました。</p>
     <p>つきましては日頃の感謝の気持ちを込めて、心ばかりのパーティを開催いたします。</p>
     <p>多くの恩人・友人と楽しい時間を過ごしたいと思っておりますので、ぜひご参加くださいますようお願い申し上げます。</p>
     <p>皆様にお会いできることを楽しみにしております。</p>
@@ -71,33 +72,22 @@
 			<span class="blur">挙式・披露宴日程</span>
 		</div>
 
-	  	<div class="main_date">
-        2025年2月24日(月・祝)
-      </div>
 	  	<div class="main_time">
-        開場： 9:30～<br>
-        開始：10:30～
-      </div>
+			<p>2025年2月24日(月・祝)</p>
+			<p>開場： 9:30～<br>
+			開始：10:30～</p>
+		</div>
 
 <!--カウントダウン-->
 <div class="countdown">
-  <h1>COUNT DOWN...</h1>
-  <div class="countdown-container">
-    <div class="countdown-elm">
-      <p class="time-text" id="days">0</p>
-      <span>days</span>
-    </div>
-    <div class="countdown-elm">
-      <p class="time-text" id="hours">0</p>
-      <span>hours</span>
-    </div>
-    <div class="countdown-elm">
-      <p class="time-text" id="mins">0</p>
-      <span>mins</span>
-    </div>
-    <div class="countdown-elm">
-      <p class="time-text" id="seconds">0</p>
-      <span>seconds</span>
+  <div class="tick" data-did-init="handleTickInit">
+    <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(d, h, m, s) -> delay">
+        <div class="tick-group">
+            <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+                <span data-view="flip"></span>
+            </div>
+            <span data-key="label" data-view="text" class="tick-label"></span>
+        </div>
     </div>
   </div>
 </div>
