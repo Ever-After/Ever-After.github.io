@@ -461,9 +461,16 @@ ul.icons li {
 
 /*セクションタイトル*/
 ---------------------------------------------------------------------------*/
-.main_title {
+.main_date {
+	font-size: 4rem;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+.main_time {
 	font-size: 3rem;
 	font-weight: bold;
+	display: block;
 	text-align: center;
 }
 
@@ -751,7 +758,7 @@ a.btn_12:hover {
   margin: 0;
 }
 
-h1 {
+.countdown h1 {
   font-weight: normal;
   font-size: 1.5rem;
   margin-top: 5rem;
@@ -768,7 +775,7 @@ h1 {
   font-weight: bold;
   font-size: 2.8rem;
   line-height: 1;
-  margin: 2rem 0.4rem;
+  margin: 2rem 1rem;
 }
 
 .countdown-elm {
