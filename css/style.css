@@ -8,7 +8,8 @@
 
 /*Google Fontsの読み込み
 ---------------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Homemade+Apple&=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
 /*Font Awesomeの読み込み
 ---------------------------------------------------------------------------*/
@@ -80,8 +81,8 @@ html,body {
 
 
 body {
-	font-family: "Zen Old Mincho", sans-serif;	/*フォント種類*/
-	font-weight: 600;
+	font-family: "Zen Old Mincho", serif;	/*フォント種類*/
+	font-weight: 500;
 	font-style: normal;
 	-webkit-text-size-adjust: none;
 	background: var(--primary-color);	/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
