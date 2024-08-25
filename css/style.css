@@ -198,7 +198,7 @@ header #logo {
 .home header #logo.hosoku {
 	opacity: 1;		/*下の.hosokuで透明度を下げているので、通常通りの色を出す*/
 	width: auto;
-	font-size: 5vw;	/*画面幅に対する割合。大きくすると文字も大きくなります。*/
+	font-size: 8vw;	/*画面幅に対する割合。大きくすると文字も大きくなります。*/
 }
 
 	/*画面幅600px以下の追加指定*/
