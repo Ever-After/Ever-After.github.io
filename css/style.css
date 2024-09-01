@@ -902,8 +902,8 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
   bottom: 50%;
   z-index: 10;
   cursor: pointer;
-  border-top: solid 3px #2b220f;
-  border-right: solid 3px #2b220f;
+  border-top: solid 3px #2b220f;/* 矢印の色 */
+  border-right: solid 3px #2b220f;/* 矢印の色 */
   -webkit-transform: rotate(45deg) translateY(50%);
   transform: rotate(45deg) translateY(50%);
 }
@@ -915,8 +915,8 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
   bottom: 50%;
   z-index: 10;
   cursor: pointer;
-  border-top: solid 3px #2b220f;
-  border-right: solid 3px #2b220f;
+  border-top: solid 4px #2b220f;/* 矢印の色 */
+  border-right: solid 4px #2b220f;/* 矢印の色 */
   -webkit-transform: rotate(-135deg) translateY(-50%);
   transform: rotate(-135deg) translateY(-50%);
 }
@@ -924,21 +924,21 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 .indicator {
   width: 100%;
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   display: flex;
-  column-gap: 18px;
-  z-index: 10;
+  column-gap: 18px;/* ボタンのあいだの幅 */
+  z-index: 10;/* ボタンの表面の位置（レイヤー） */
   justify-content: center;
   align-items: center;
 }
 .indicator li {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
+  width: 10px;/* ボタンの横幅 */
+  height: 10px;/* ボタンの縦幅 */
+  border-radius: 50%;/* ボタンの角 */
   list-style: none;
-  background-color: #eee9e6;
+  background-color: #eee9e6;/* 未選択の色 */
   cursor: pointer;
 }
 .indicator li:first-of-type {
-  background-color: #fcc800;
+  background-color: #fcc800;/* 選択中の色 */
 }
