@@ -846,3 +846,99 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 		width: 60%;
 	}
 }
+
+
+
+
+/*jsスライドショー
+---------------------------------------------------------------------------*/
+/* ↓ スライドの外枠 */
+.slide-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; /* はみ出したスライドを隠す */
+}
+/*  ↓ スライド（コンテンツ） */
+.slide { /*スライド全体 */
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: all 1.2s;
+}
+.slide div { /* スライド */
+  width: 33.33%;
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.slide1 { /* スライドさせるために必要なクラス */
+  transform: translateX(0);
+}
+.slide2 { /* スライドさせるために必要なクラス */
+  transform: translateX(-33.33%);
+}
+.slide3 { /* スライドさせるために必要なクラス */
+  transform: translateX(-66.66%);
+}
+.slide div:nth-of-type(1){ /* 背景色 */
+  background-color: #E1F3FC;
+}
+.slide div:nth-of-type(2){ /* 背景色 */
+  background-color: #FCE8F0;
+}
+.slide div:nth-of-type(3){ /* 背景色 */
+  background-color: #E3F1E4;
+}
+/* ↓ 左右のボタン */
+.next {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 10px;
+  bottom: 50%;
+  z-index: 10;
+  cursor: pointer;
+  border-top: solid 3px #2b220f;
+  border-right: solid 3px #2b220f;
+  -webkit-transform: rotate(45deg) translateY(50%);
+  transform: rotate(45deg) translateY(50%);
+}
+.prev {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 25px;
+  bottom: 50%;
+  z-index: 10;
+  cursor: pointer;
+  border-top: solid 3px #2b220f;
+  border-right: solid 3px #2b220f;
+  -webkit-transform: rotate(-135deg) translateY(-50%);
+  transform: rotate(-135deg) translateY(-50%);
+}
+/* ↓ インジケーター */
+.indicator {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  column-gap: 18px;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+}
+.indicator li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  list-style: none;
+  background-color: #eee9e6;
+  cursor: pointer;
+}
+.indicator li:first-of-type {
+  background-color: #fcc800;
+}
