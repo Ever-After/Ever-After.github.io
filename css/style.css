@@ -875,24 +875,16 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
   justify-content: center;
   align-items: center;
 }
-.slide1 { /* スライドさせるために必要なクラス */
-  transform: translateX(0);
-}
-.slide2 { /* スライドさせるために必要なクラス */
-  transform: translateX(-33.33%);
-}
-.slide3 { /* スライドさせるために必要なクラス */
-  transform: translateX(-66.66%);
-}
-.slide div:nth-of-type(1){ /* 背景色 */
-  background-color: #E1F3FC;
-}
-.slide div:nth-of-type(2){ /* 背景色 */
-  background-color: #FCE8F0;
-}
-.slide div:nth-of-type(3){ /* 背景色 */
-  background-color: #E3F1E4;
-}
+
+/* スライドさせるために必要なクラス */
+.slide1 { transform: translateX(0); } /* ←数値を変更 */
+.slide2 { transform: translateX(-14.29%); } /* ←数値を変更 */
+.slide3 { transform: translateX(-28.58%); } /* ←数値を変更 */
+.slide4 { transform: translateX(-42.87%); } /* ←追加 */
+.slide5 { transform: translateX(-57.16%); } /* ←追加 */
+.slide6 { transform: translateX(-71.45%); } /* ←追加 */
+.slide7 { transform: translateX(-85.74%); } /* ←追加 */
+
 /* ↓ 左右のボタン */
 .next {
   position: absolute;
