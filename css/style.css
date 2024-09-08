@@ -861,13 +861,13 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 }
 /*  ↓ スライド（コンテンツ） */
 .slide { /*スライド全体 */
-  width: 300%;
+  width: 700%;
   height: 100%;
   display: flex;
   transition: all 1.2s;
 }
 .slide div { /* スライド */
-  width: 33.33%;
+  width: 14.29%;
   height: 100%;
   font-size: 16px;
   display: flex;
