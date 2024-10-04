@@ -217,7 +217,7 @@ header #logo {
 #mainimg {
 	position: absolute;
 	right: 0;
-	width: 100%;	/*画面の半分だけに配置*/
+	width: 70%;	/*画面の半分だけに配置*/
 	height: 105%;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);	/*切り抜く形。左上,右上,右下,左下の順番で、それぞれ2つセットになっている数字はX軸 Y軸の順番。基点は左上(0 0)。*/
 	background: url('../images/img1.jpg') no-repeat center center / cover;	/*背景画像を読み込む指定*/
@@ -845,8 +845,6 @@ animationの行の「0.1s」が文字の出現のなめらかさで、大きい�
 		width: 60%;
 	}
 }
-
-
 
 
 /*jsスライドショー
