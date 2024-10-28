@@ -172,7 +172,7 @@ header #logo {
 /*トップページのロゴ共通*/
 .home header #logo {
 	position: absolute;z-index: 1;
-	left: 30%;	/*左からの配置場所指定*/
+	left: 15%;	/*左からの配置場所指定*/
 	top: 50%;	/*上からの配置場所指定*/
 	transform: rotate(-10deg);	/*10度回転させる*/
 	width: 30%;	/*ロゴの幅*/
