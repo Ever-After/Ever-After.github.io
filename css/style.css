@@ -172,7 +172,7 @@ header #logo {
 /*トップページのロゴ共通*/
 .home header #logo {
 	position: absolute;z-index: 1;
-	left: 15%;	/*左からの配置場所指定*/
+	left: 13%;	/*左からの配置場所指定*/
 	top: 50%;	/*上からの配置場所指定*/
 	transform: rotate(-10deg);	/*10度回転させる*/
 	width: 30%;	/*ロゴの幅*/
@@ -198,7 +198,7 @@ header #logo {
 .home header #logo.hosoku {
 	opacity: 1;		/*下の.hosokuで透明度を下げているので、通常通りの色を出す*/
 	width: auto;
-	font-size: 8vw;	/*画面幅に対する割合。大きくすると文字も大きくなります。*/
+	font-size: 10vw;	/*画面幅に対する割合。大きくすると文字も大きくなります。*/
 }
 
 	/*画面幅600px以下の追加指定*/
