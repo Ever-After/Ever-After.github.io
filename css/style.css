@@ -223,16 +223,6 @@ header #logo {
 	background: url('../images/img1.jpg') no-repeat center center / cover;	/*背景画像を読み込む指定*/
 }
 
-	/*画面のアスペクト比が1:2以下の場合の追加設定*/
-	@media screen and (max-aspect-ratio: 1/2) {
-
-	#mainimg {
-		width: 100%;		/*画像が細くなりすぎるので、全画面に出すように変更*/
-		clip-path: none;	/*切り抜きをリセット*/
-	}
-
-	}/*追加指定ここまで*/
-
 
 /*mainブロック
 ---------------------------------------------------------------------------*/
