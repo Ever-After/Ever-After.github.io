@@ -153,6 +153,19 @@ header #logo {
 	max-width: 200px;	/*ロゴ画像の最大幅*/
 }
 
+/*title*/
+top-title {
+	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
+	font-weight: normal;	/*太さを標準に*/
+	font-size: 2em;			/*文字サイズを２倍に*/
+	letter-spacing: 1em;	/*文字間隔を広くとる*/
+	text-indent: 1em;		/*上の行のletter-spacingと同じ値をセットする*/
+	text-align: center;
+}
+sub-title {
+	width: 100%;
+}
+
 
 /*メイン画像
 ---------------------------------------------------------------------------*/
