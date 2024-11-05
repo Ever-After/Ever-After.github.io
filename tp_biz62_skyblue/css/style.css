@@ -137,10 +137,8 @@ header #text {
 	background: rgba(255,255,255,0.75);	/*背景色。255,255,255は白の事で0.95は色が95%出た状態。*/
 	border-radius: 30px;	/*角を丸くする指定*/
 	padding: 100px 50px;	/*上下、左右へのブロック内の余白*/
-	margin: 30px;			/*ブロックの外にとる余白*/
+	margin: 20px;			/*ブロックの外にとる余白*/
 	
-	width: 400px;	/*幅*/
-	height: 200px;	/*高さ*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
@@ -237,6 +235,12 @@ main h2 {
 	font-size: 2em;			/*文字サイズを２倍に*/
 	letter-spacing: 1em;	/*文字間隔を広くとる*/
 	text-indent: 1em;		/*上の行のletter-spacingと同じ値をセットする*/
+	text-align: center;
+}
+main h2.sub {
+	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
+	font-weight: normal;	/*太さを標準に*/
+	font-size: 2em;			/*文字サイズを２倍に*/
 	text-align: center;
 }
 
@@ -485,7 +489,7 @@ footer .pr {display: block;}
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 40px;	/*ブロック内の余白*/
+	padding: 30px;	/*ブロック内の余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
