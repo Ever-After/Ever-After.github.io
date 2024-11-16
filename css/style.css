@@ -146,9 +146,9 @@ header #text {
 	z-index: 1;			/*画像の上にくるように*/
 	background: rgba(255,255,255,0.75);	/*背景色。255,255,255は白の事で0.95は色が95%出た状態。*/
 	border-radius: 30px;	/*角を丸くする指定*/
-	padding: 100px 50px;	/*上下、左右へのブロック内の余白*/
-	margin: 30px;			/*ブロックの外にとる余白*/
-	
+	padding: 100px 20px;	/*上下、左右へのブロック内の余白*/
+	margin: 10px;			/*ブロックの外にとる余白*/
+
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
@@ -216,7 +216,7 @@ header ul.icons li a:hover {
 main #text {
 	background: rgba(255,255,255,0.95);	/*背景色。255,255,255は白の事で0.95は色が95%出た状態。*/
 	border-radius: 30px;	/*角を丸くする指定*/
-	padding: 30px 10px;	/*上下、左右へのブロック内の余白*/
+	padding: 30px 20px;	/*上下、左右へのブロック内の余白*/
 	margin: 30px;			/*ブロックの外にとる余白*/
 }
 
@@ -508,7 +508,7 @@ footer .pr {display: block;}
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 10px;	/*ブロック内の余白*/
+	padding: 20px 20px;	/*ブロック内の余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
