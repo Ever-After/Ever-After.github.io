@@ -149,7 +149,6 @@ header #text {
 	padding: 100px 50px;	/*上下、左右へのブロック内の余白*/
 	margin: 30px;			/*ブロックの外にとる余白*/
 	
-	width: 400px;	/*幅*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
