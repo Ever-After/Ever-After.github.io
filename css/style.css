@@ -508,7 +508,7 @@ footer .pr {display: block;}
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 20px;	/*ブロック内の余白*/
+	padding: 10px;	/*ブロック内の余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
