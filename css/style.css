@@ -258,7 +258,7 @@ main h3 {
 	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
 	font-weight: normal;	/*太さを標準に*/
 	font-size: 2em;			/*文字サイズを２倍に*/
-	letter-spacing: 0.5em;	/*文字間隔を広くとる*/
+	letter-spacing: 0.4em;	/*文字間隔を広くとる*/
 	text-indent: 1em;		/*上の行のletter-spacingと同じ値をセットする*/
 	text-align: center;
 }
