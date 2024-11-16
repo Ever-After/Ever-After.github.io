@@ -123,6 +123,16 @@ header {
 	text-align: center;			/*文字をセンタリング*/
 }
 
+/*h2タグ*/
+header h2 {
+	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
+	font-weight: bold;	/*太さを標準に*/
+	font-size: 1.6em;			/*文字サイズを２倍に*/
+	letter-spacing: 0.1em;	/*文字間隔を広くとる*/
+	text-indent: 1em;		/*上の行のletter-spacingと同じ値をセットする*/
+	text-align: center;
+}
+
 /*ヘッダーのリンクテキスト*/
 header a {
 	text-decoration: none;
@@ -140,7 +150,6 @@ header #text {
 	margin: 30px;			/*ブロックの外にとる余白*/
 	
 	width: 400px;	/*幅*/
-	height: 200px;	/*高さ*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
@@ -227,6 +236,16 @@ main h2 {
 	text-align: center;
 }
 
+/*h2タグ*/
+.sub-title {
+	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
+	font-weight: normal;	/*太さを標準に*/
+	font-size: 1em;			/*文字サイズを２倍に*/
+	letter-spacing: 0.5em;	/*文字間隔を広くとる*/
+	text-indent: 1em;		/*上の行のletter-spacingと同じ値をセットする*/
+	text-align: center;
+}
+
 /*h2タグ内のspanタグ。小文字部分。*/
 main h2 span {
 	display: block;
@@ -237,21 +256,39 @@ main h2 span {
 
 /*h3タグ*/
 main h3 {
+	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
+	font-weight: normal;	/*太さを標準に*/
+	font-size: 2em;			/*文字サイズを２倍に*/
+	letter-spacing: 0.5em;	/*文字間隔を広くとる*/
+	text-indent: 1em;		/*上の行のletter-spacingと同じ値をセットする*/
+	text-align: center;
+}
+
+/*h2タグ内のspanタグ。小文字部分。*/
+main h3 span {
+	display: block;
+	font-size: 0.5em;		/*文字サイズを親要素の半分に*/
+	letter-spacing: 0.6em;	/*文字間隔の上書き*/
+	text-indent: 0.5em;		/*上の行のletter-spacingと同じ値をセットする*/
+}
+
+/*h4タグ*/
+main h4 {
 	font-weight: normal;	/*太さを標準に*/
 	font-size: 1.5em;		/*文字サイズ*/
 	letter-spacing: 0.2em;	/*文字間隔を少し広くとる*/
 }
 
-/*h4タグ*/
-main h4 {
+/*h5タグ*/
+main h5 {
 	font-weight: 600;
 	font-size: 1.3em;		/*文字サイズ*/
 	color: red;
 }
 
 
-/*h5タグ　サイン*/
-main h5 {
+/*h6タグ　サイン*/
+main h6 {
 	font-family: "Homemade Apple", cursive;	/*冒頭で読み込んでいるGoogle Fontsの指定*/
 	font-weight: normal;
 	font-size: 1.3em;		/*文字サイズ*/
@@ -472,7 +509,7 @@ footer .pr {display: block;}
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 40px;	/*ブロック内の余白*/
+	padding: 20px;	/*ブロック内の余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
@@ -502,7 +539,7 @@ header #text {
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 20px 50px;	/*上下、左右へのブロック内の余白*/	margin: 0px;		/*ブロックの外にとる余白*/
+	padding: 20px 20px;	/*上下、左右へのブロック内の余白*/	margin: 0px;		/*ブロックの外にとる余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
