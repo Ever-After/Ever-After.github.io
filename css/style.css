@@ -365,6 +365,24 @@ footer a {text-decoration: none;}
 /*著作部分*/
 footer .pr {display: block;}
 
+/*フッター設定
+---------------------------------------------------------------------------*/
+.footer_res small {font-size: 100%;}
+
+.footer_res {
+	font-size: 0.6rem;		/*文字サイズ*/
+	text-align: center;		/*内容をセンタリング*/
+	padding: 20px;			/*ボックス内の余白*/
+	color: #999;
+	vertical-align: bottom;
+}
+
+/*リンクテキスト*/
+.footer_res a {text-decoration: none;}
+
+/*著作部分*/
+.pr {display: block;}
+
 
 /*「お知らせ」ブロック
 ---------------------------------------------------------------------------*/
