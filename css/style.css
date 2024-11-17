@@ -80,6 +80,9 @@ a:hover {
 ---------------------------------------------------------------------------*/
 #container_res {
 	height: 100vh;				/*画面に対して高さ100%*/
+	justify-content: center;	/*左右の中央に配置*/
+	align-items: center;		/*天地中央に配置*/
+	text-align: center;			/*文字をセンタリング*/
 }
 
 /*section
@@ -90,6 +93,7 @@ section {
 
 .res  {
 	padding: 2% 0px;
+	height: 100%;				/*画面に対して高さ100%*/
 }
 
 
