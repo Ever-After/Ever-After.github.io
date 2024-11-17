@@ -146,7 +146,7 @@ header #text {
 	z-index: 1;			/*画像の上にくるように*/
 	background: rgba(255,255,255,0.75);	/*背景色。255,255,255は白の事で0.95は色が95%出た状態。*/
 	border-radius: 30px;	/*角を丸くする指定*/
-	padding: 20px 30px;	/*上下、左右へのブロック内の余白*/
+	padding: 30px 30px;	/*上下、左右へのブロック内の余白*/
 	margin: 10px;			/*ブロックの外にとる余白*/
 
 	justify-content: center;	/*左右の中央に配置*/
@@ -573,7 +573,7 @@ footer .pr {display: block;}
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 20px 30px;	/*ブロック内の余白*/
+	padding: 30px 30px;	/*ブロック内の余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
@@ -603,7 +603,7 @@ header #text {
 ---------------------------------------------------------------------------*/
 /*ロゴやメニューのブロック*/
 header #text {
-	padding: 20px 30px;	/*上下、左右へのブロック内の余白*/	margin: 0px;		/*ブロックの外にとる余白*/
+	padding: 30px 30px;	/*上下、左右へのブロック内の余白*/	margin: 0px;		/*ブロックの外にとる余白*/
 	justify-content: center;	/*左右の中央に配置*/
 	align-items: center;		/*天地中央に配置*/
 	text-align: center;			/*文字をセンタリング*/
