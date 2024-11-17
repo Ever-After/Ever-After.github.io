@@ -93,7 +93,7 @@ section {
 
 .res  {
 	padding: 2% 0px;
-	height: 100%;				/*画面に対して高さ100%*/
+	height: 100vh;				/*画面に対して高さ100%*/
 }
 
 
