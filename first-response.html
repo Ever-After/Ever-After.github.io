@@ -2,64 +2,41 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>Happy Wedding Day!</title>
+<title>Hiroshi & Ikue</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Happily Ever After">
+<meta name="description" content="Welcome to our Wedding!">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body width="100%" height="100%">
+<body>
 
+<!--/#container-->
 <div id="container">
-
-<header>
-<p>　</p>
-</header>
 
 <main>
 
-<section>
+<section class="up">
 
-<div class="respond_form">
+	<h2>RESPONSE<span>招待状へのご返信</span></h2>
+	
+	<div class="respond_form">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6ynwZBUU6SZqo82DiqVs3Dpm5vd_2_st08jiPR-u8sV8NFg/viewform?embedded=true" width="100%" height="530" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-</div>
+	</div>
 
 </section>
 
 </main>
 
 <footer>
-<p class="font_s"><small>Copyright &copy; <a href="first-party.html">Hiroshi & Ikue</a> All Rights Reserved</small>
-<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span></p>
+
+Copyright &copy; Hiroshi & Ikue All Rights Reserved.
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+
 </footer>
 
 </div>
 <!--/#container-->
-
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
-
-<!--開閉ブロック-->
-<div id="menubar">
-
-<nav>
-<ul>
-<li><a href="first-party.html">Home</a></li>
-<li><a href="first-profile.html">Groom & Bride Profile</a></li>
-<li><a href="first-response.html">Response</a></li>
-<li><a href="https://www.ailedange.jp/honten/" target="_blank">AILE d'ANGE (式場HP)</a></li>
-</ul>
-</nav>
-
-</div>
-<!--/#menubar-->
-
-<!--開閉ボタン（ハンバーガーアイコン）-->
-<div id="menubar_hdr_inner">
-<div id="menubar_hdr">
-<span></span><span></span><span></span>
-</div>
-</div>
 
 <!--jQueryの読み込み-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -67,29 +44,38 @@
 <!--lightbox用jsファイルの読み込み-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
 
-<!--スライドショー（slick）-->
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="js/slick-thumbnail.js"></script>
-<script src="js/slick.js"></script>
-
-<!--パララックス（inview）-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-<script src="js/jquery.inview_set.js"></script>
+<!--スライドショー（vegas）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
+<script src="js/vegas.js"></script>
 
 <!--このテンプレート専用のスクリプト-->
 <script src="js/main.js"></script>
 
-<!--ロゴアニメーション-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.6/vivus.min.js"></script>
-<script>
-new Vivus('svg-logo', {
-start:'autostart',
-type: 'scenario-sync',
-duration: 150,
-forceRender: false,
-});
-</script>
+<!--メニュー
+<div id="menubar">
+<nav>
+<ul>
+<li><a href="first-party.html">Top</a></li>
+<li><a href="first-profile.html">Groom & Bride Profile</a></li>
+<li><a href="first-response.html">招待状へ回答する</a></li>
+<li><a href="https://www.ailedange.jp/honten/" target="_blank">AILE d'ANGE (式場HP)</a></li>
+</ul>
+</nav>
+</div>
+-->
 
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+
+<span></span><span></span><span></span>
+</div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
 
 </body>
 </html>
