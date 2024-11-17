@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 /*リセットCSS（sanitize.css）の読み込み
 ---------------------------------------------------------------------------*/
 @import url("https://unpkg.com/sanitize.css");
@@ -499,7 +497,7 @@ footer .pr {display: block;}
 
 .p_btn_a {
   text-align: center;
-  margin: 2rem 0rem 0rem 0rem;
+  margin: 3rem 0rem 0rem 0rem;
 }
 
 .p_btn a {
