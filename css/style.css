@@ -231,6 +231,13 @@ main #text {
 	margin: 30px;			/*ブロックの外にとる余白*/
 }
 
+main #text_p {
+	background: rgba(255,255,255,0.95);	/*背景色。255,255,255は白の事で0.95は色が95%出た状態。*/
+	border-radius: 30px;	/*角を丸くする指定*/
+	padding: 30px 20px;	/*上下、左右へのブロック内の余白*/
+	margin: 15px;			/*ブロックの外にとる余白*/
+}
+
 /*文字サイズ大*/
 .text-big {
 	font-size: 1.3em;	/*文字サイズ*/
@@ -462,7 +469,7 @@ footer .pr {display: block;}
 .ta2 {
 	border-top: 1px solid #ccc;	/*テーブルの一番上の線。幅、線種、色*/
 	width: 85%;
-	margin: 0 auto 30px;		/*最後の「30px」がテーブルの下に空けるスペースです*/
+	margin: 0px 20px 30px 20px;		/*最後の「30px」がテーブルの下に空けるスペースです*/
 }
 
 /*tr（１行分）タグ設定*/
@@ -470,23 +477,20 @@ footer .pr {display: block;}
 	border-bottom: 1px solid #ccc;	/*テーブルの下線。幅、線種、色*/
 }
 
-/*th（左側）、td（右側）の共通設定*/
-.ta2 th, .ta2 td {
-	padding: 10px 15px;		/*上下、左右へのボックス内の余白*。基本的に数行上の「.ta1 caption」のpaddingと揃えておけばOKです。*/
-	word-break: break-all;	/*英語などのテキストを改行で自動的に折り返す設定。これがないと、テーブルを突き抜けて表示される場合があります。*/
-}
-
-/*th（左側）のみの設定*/
+/*th（左側）の設定*/
 .ta2 th {
+	padding: 10px 10px 10px 0px;		/*上下、左右へのボックス内の余白*。基本的に数行上の「.ta1 caption」のpaddingと揃えておけばOKです。*/
+	word-break: break-all;	/*英語などのテキストを改行で自動的に折り返す設定。これがないと、テーブルを突き抜けて表示される場合があります。*/
 	width: 50%;			/*幅*/
-	text-align: right;	/*左よせにする*/
+	text-align: right;	/*右よせにする*/
 }
 
-/*td（右側）のみの設定*/
+/*td（右側）の設定*/
 .ta2 td {
+	padding: 10px 0px 10px 10px;		/*上下、左右へのボックス内の余白*。基本的に数行上の「.ta1 caption」のpaddingと揃えておけばOKです。*/
+	word-break: break-all;	/*英語などのテキストを改行で自動的に折り返す設定。これがないと、テーブルを突き抜けて表示される場合があります。*/
 	text-align: left;	/*左よせにする*/
 }
-
 
 
 /*プロフィールボタン*/
