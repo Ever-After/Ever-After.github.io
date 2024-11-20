@@ -94,7 +94,7 @@ section {
 }
 
 .res  {
-	padding: 2% 0px;
+	padding: 0px 10px;
 	height: 100vh;				/*画面に対して高さ100%*/
 }
 
@@ -508,7 +508,7 @@ footer .pr {display: block;}
 
 .p_btn_a {
   text-align: center;
-  margin: 3rem 0rem 0rem 0rem;
+  margin: 2rem 0rem 1.5rem 0rem;
 }
 
 .p_btn a {
