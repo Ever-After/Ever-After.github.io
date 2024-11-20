@@ -238,8 +238,9 @@ main #text {
 main #text_p {
 	background: rgba(255,255,255,0.95);	/*背景色。255,255,255は白の事で0.95は色が95%出た状態。*/
 	border-radius: 30px;	/*角を丸くする指定*/
-	padding: 30px 20px;	/*上下、左右へのブロック内の余白*/
+	padding: 30px 10px;	/*上下、左右へのブロック内の余白*/
 	margin: 30px 15px;			/*ブロックの外にとる余白*/
+	text-align: center;
 }
 
 /*文字サイズ大*/
@@ -467,6 +468,7 @@ footer .pr {display: block;}
 	padding: 30px 15px;		/*上下、左右へのボックス内の余白。基本的に数行下の「.ta1 th, .ta1 td」のpaddingと揃えておけばOKです。*/
 	background: #eee;		/*背景色*/
 	margin-bottom: 15px;	/*下に空けるスペース*/
+	text-align: center;
 }
 
 /*ta2テーブルブロック設定*/
@@ -474,6 +476,7 @@ footer .pr {display: block;}
 	border-top: 1px solid #ccc;	/*テーブルの一番上の線。幅、線種、色*/
 	width: 85%;
 	margin: 0px 20px 30px 20px;		/*最後の「30px」がテーブルの下に空けるスペースです*/
+	text-align: center;
 }
 
 /*tr（１行分）タグ設定*/
