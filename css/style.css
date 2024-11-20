@@ -556,7 +556,7 @@ footer .pr {display: block;}
 
 .prof h4:before {
     position: absolute;
-    top: 100%;
+    top: 99%;
     left: 50%;
     transform: translateX(-50%) skew(-25deg);
     height: 15px;
