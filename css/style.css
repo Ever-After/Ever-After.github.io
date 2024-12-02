@@ -255,6 +255,13 @@ main #text-all {
 	font-size: 1.3em;	/*文字サイズ*/
 }
 
+.text-big caption {
+	font-weight: bold;		/*太字に*/
+	padding: 10px 5px;		/*上下、左右へのボックス内の余白。基本的に数行下の「.ta1 th, .ta1 td」のpaddingと揃えておけばOKです。*/
+	background: #eee;		/*背景色*/
+	margin-bottom: 15px;	/*下に空けるスペース*/
+}
+
 /*hrタグ*/
 main hr {
 	border-top: 1px solid #ccc;	/*テーブルの一番上の線。幅、線種、色*/
