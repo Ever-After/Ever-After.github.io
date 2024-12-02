@@ -245,9 +245,9 @@ main #text_p {
 
 main #text-all {
 	background-color: #FFF;
-	border-radius: 30px;	/*角を丸くする指定*/
-	padding: 0px 0px;	/*上下、左右へのブロック内の余白*/
-	margin: 20px;			/*ブロックの外にとる余白*/
+	border-radius: 20px;	/*角を丸くする指定*/
+	padding: 10px 10px;	/*上下、左右へのブロック内の余白*/
+	margin: 5px;			/*ブロックの外にとる余白*/
 }
 
 /*文字サイズ大*/
