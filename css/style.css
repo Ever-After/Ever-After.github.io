@@ -248,6 +248,11 @@ main #text_p {
 	font-size: 1.3em;	/*文字サイズ*/
 }
 
+/*hrタグ*/
+main hr {
+	border-top: 1px solid #ccc;	/*テーブルの一番上の線。幅、線種、色*/
+}
+
 /*h2タグ*/
 main h2 {
 	font-family: 'Cinzel', serif;	/*GoogleFontsの指定*/
