@@ -243,6 +243,13 @@ main #text_p {
 	text-align: center;
 }
 
+main #text-all {
+	background-color: #FFF;
+	border-radius: 30px;	/*角を丸くする指定*/
+	padding: 0px 0px;	/*上下、左右へのブロック内の余白*/
+	margin: 20px;			/*ブロックの外にとる余白*/
+}
+
 /*文字サイズ大*/
 .text-big {
 	font-size: 1.3em;	/*文字サイズ*/
@@ -429,6 +436,7 @@ footer .pr {display: block;}
 #new dd {
 	width: calc(100% - 8em);	/*「8em」は上の「#new dt」のwidthの値です。※下の「900px以上」の端末用の設定に再設定があります。*/
 }
+
 
 
 /*テーブル
